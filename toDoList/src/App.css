@@ -1,0 +1,76 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1919;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  border: 2px solid #4d7ec3;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #202020;
+  background-color: #b7cce8;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #202020;
+  color: #b7cce8;
+}
+
+.allTodos {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.singleTodo {
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: #6f95c9;
+  color: #202020;
+  padding: 10px 25px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.todoText {
+  flex: 1;
+}
